@@ -3,7 +3,7 @@
   <Source>ObsPy-Scripted</Source>
   <Module>ObsPy 1.4.2</Module>
   <ModuleURI>https://www.obspy.org</ModuleURI>
-  <Created>2025-09-23T12:13:33.360267Z</Created>
+  <Created>2025-09-23T21:43:02.422983Z</Created>
   <Network code="DU">
     <Station code="WEPH">
       <Latitude unit="DEGREES">-33.75751</Latitude>
