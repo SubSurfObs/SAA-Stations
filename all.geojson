@@ -6,74 +6,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0382,
-          -33.75751,
-          105.0
-        ]
-      },
-      "properties": {
-        "network": "DU",
-        "station": "WEPH",
-        "site": "West Pennant Hills, New South Wales, Australia",
-        "elevation_m": 105.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.00454,
-          -33.66516,
-          143.0
-        ]
-      },
-      "properties": {
-        "network": "DU",
-        "station": "KENT",
-        "site": "Kenthurst, New South Wales, Australia",
-        "elevation_m": 143.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1991129,
-          -33.89897794,
-          14.0
-        ]
-      },
-      "properties": {
-        "network": "DU",
-        "station": "ALEX",
-        "site": "Alexandria, New South Wales, Australia",
-        "elevation_m": 14.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.1229132,
-          -33.90348718,
-          27.0
-        ]
-      },
-      "properties": {
-        "network": "DU",
-        "station": "ABRY",
-        "site": "Ashbury, New South Wales, Australia",
-        "elevation_m": 27.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           151.0306,
           -33.79048,
           65.0
@@ -83,6 +15,23 @@
         "network": "DU",
         "station": "OAT",
         "site": "Oatlands, New South Wales, Australia",
+        "elevation_m": 65.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.261644,
+          -33.89891804,
+          65.0
+        ]
+      },
+      "properties": {
+        "network": "DU",
+        "station": "BRON",
+        "site": "Bronte, New South Wales, Australia",
         "elevation_m": 65.0
       }
     },
@@ -108,16 +57,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.0058938,
-          -33.91882891,
-          39.0
+          151.1229132,
+          -33.90348718,
+          27.0
         ]
       },
       "properties": {
         "network": "DU",
-        "station": "DJO",
-        "site": "Bronte, New South Wales, Australia",
-        "elevation_m": 39.0
+        "station": "ABRY",
+        "site": "Ashbury, New South Wales, Australia",
+        "elevation_m": 27.0
       }
     },
     {
@@ -125,33 +74,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          150.9757506,
-          -34.22019508,
-          262.0
+          138.6209,
+          -33.9292,
+          440.0
         ]
       },
       "properties": {
         "network": "DU",
-        "station": "HELEN",
-        "site": "Stanwell Tops, New South Wales, Australia",
-        "elevation_m": 262.0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          151.189481,
-          -33.888775,
-          30.0
-        ]
-      },
-      "properties": {
-        "network": "DU",
-        "station": "USYD",
-        "site": "The University of Sydney, New South Wales, Australia",
-        "elevation_m": 30.0
+        "station": "PENW",
+        "site": "Penwortham, South Australia, Australia",
+        "elevation_m": 440.0
       }
     },
     {
@@ -176,6 +108,142 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          151.0382,
+          -33.75751,
+          105.0
+        ]
+      },
+      "properties": {
+        "network": "DU",
+        "station": "WEPH",
+        "site": "West Pennant Hills, New South Wales, Australia",
+        "elevation_m": 105.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          140.321,
+          -36.417,
+          40.0
+        ]
+      },
+      "properties": {
+        "network": "DU",
+        "station": "WKA",
+        "site": "Willalooka, South Australia, Australia",
+        "elevation_m": 40.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.0058938,
+          -33.91882891,
+          39.0
+        ]
+      },
+      "properties": {
+        "network": "DU",
+        "station": "DJO",
+        "site": "Bronte, New South Wales, Australia",
+        "elevation_m": 39.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.00454,
+          -33.66516,
+          143.0
+        ]
+      },
+      "properties": {
+        "network": "DU",
+        "station": "KENT",
+        "site": "Kenthurst, New South Wales, Australia",
+        "elevation_m": 143.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.5525,
+          -31.7642,
+          330.0
+        ]
+      },
+      "properties": {
+        "network": "DU",
+        "station": "HKER",
+        "site": "Hawker, South Australia, Australia",
+        "elevation_m": 330.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.9757506,
+          -34.22019508,
+          262.0
+        ]
+      },
+      "properties": {
+        "network": "DU",
+        "station": "HELEN",
+        "site": "Stanwell Tops, New South Wales, Australia",
+        "elevation_m": 262.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.8305681,
+          -34.06025492,
+          80.0
+        ]
+      },
+      "properties": {
+        "network": "DU",
+        "station": "LEU",
+        "site": "Leumeah, New South Wales, Australia",
+        "elevation_m": 80.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.189481,
+          -33.888775,
+          30.0
+        ]
+      },
+      "properties": {
+        "network": "DU",
+        "station": "USYD",
+        "site": "The University of Sydney, New South Wales, Australia",
+        "elevation_m": 30.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           150.98179,
           -33.71539,
           78.0
@@ -186,6 +254,23 @@
         "station": "ERIKA",
         "site": "Castle Hills, New South Wales, Australia",
         "elevation_m": 78.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.1991129,
+          -33.89897794,
+          14.0
+        ]
+      },
+      "properties": {
+        "network": "DU",
+        "station": "ALEX",
+        "site": "Alexandria, New South Wales, Australia",
+        "elevation_m": 14.0
       }
     },
     {
@@ -210,16 +295,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          151.261644,
-          -33.89891804,
-          65.0
+          151.1153097,
+          -33.72589416,
+          176.0
         ]
       },
       "properties": {
         "network": "DU",
-        "station": "BRON",
-        "site": "Bronte, New South Wales, Australia",
-        "elevation_m": 65.0
+        "station": "WAH",
+        "site": "Wahroonga, New South Wales, Australia",
+        "elevation_m": 176.0
       }
     }
   ]
