@@ -5,23 +5,23 @@
   <ModuleURI>https://www.obspy.org</ModuleURI>
   <Created>2025-09-10T03:15:19.717631Z</Created>
   <Network code="DU">
-    <Station code="LGMA">
+    <Station code="LGMA" startDate="2025-09-13T00:00:00.000000Z">
       <Latitude unit="DEGREES">-33.3113396</Latitude>
       <Longitude unit="DEGREES">151.4113468</Longitude>
       <Elevation unit="METERS">15.0</Elevation>
       <Site>
         <Name>Tuggerah, New South Wales, Australia</Name>
       </Site>
-      <Channel code="HHZ" locationCode="00">
+      <Channel code="HHZ" startDate="2025-09-13T00:00:00.000000Z" endDate="2026-04-09T00:00:00.000000Z" locationCode="0">
         <Latitude unit="DEGREES">-33.3113396</Latitude>
         <Longitude unit="DEGREES">151.4113468</Longitude>
         <Elevation unit="METERS">15.0</Elevation>
         <Depth unit="METERS">0.0</Depth>
-        <SampleRate>200.0</SampleRate>
+        <SampleRate unit="SAMPLES/S">200.0</SampleRate>
         <Response>
           <InstrumentSensitivity>
             <Value>292153290.0</Value>
-            <Frequency>5</Frequency>
+            <Frequency>5.0</Frequency>
             <InputUnits>
               <Name>M/S</Name>
               <Description>Velocity in meters per second</Description>
@@ -36,6 +36,7 @@
               <Description>Willmore MK IIIa</Description>
               <InputUnits>
                 <Name>M/S</Name>
+                <Description>Velocity in meters per second</Description>
               </InputUnits>
               <OutputUnits>
                 <Name>V</Name>
@@ -62,7 +63,7 @@
             </PolesZeros>
             <StageGain>
               <Value>185.73</Value>
-              <Frequency>5</Frequency>
+              <Frequency>5.0</Frequency>
             </StageGain>
           </Stage>
           <Stage number="2">
@@ -78,8 +79,81 @@
               <Denominator>1.0</Denominator>
             </Coefficients>
             <StageGain>
-              <Value>1573000</Value>
-              <Frequency>5</Frequency>
+              <Value>1573000.0</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="HHZ" startDate="2026-04-10T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">-33.3113396</Latitude>
+        <Longitude unit="DEGREES">151.4113468</Longitude>
+        <Elevation unit="METERS">15.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <SampleRate unit="SAMPLES/S">200.0</SampleRate>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>292153290.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>Velocity in meters per second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <Description>Willmore MK IIIa</Description>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>Velocity in meters per second</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>2.3531315417528753</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real>0.0</Real>
+                <Imaginary>0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real>0.0</Real>
+                <Imaginary>0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real>-4.94612347381177</Real>
+                <Imaginary>5.690763036015722</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real>-4.94612347381177</Real>
+                <Imaginary>-5.690763036015722</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>185.73</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+              <Numerator>1.0</Numerator>
+              <Denominator>1.0</Denominator>
+            </Coefficients>
+            <StageGain>
+              <Value>1573000.0</Value>
+              <Frequency>5.0</Frequency>
             </StageGain>
           </Stage>
         </Response>

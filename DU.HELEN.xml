@@ -5,23 +5,23 @@
   <ModuleURI>https://www.obspy.org</ModuleURI>
   <Created>2025-10-16T09:04:30.082403Z</Created>
   <Network code="DU">
-    <Station code="HELEN">
+    <Station code="HELEN" startDate="2025-05-10T00:00:00.000000Z">
       <Latitude unit="DEGREES">-34.22019508</Latitude>
       <Longitude unit="DEGREES">150.9757506</Longitude>
       <Elevation unit="METERS">262.0</Elevation>
       <Site>
         <Name>Stanwell Tops, New South Wales, Australia</Name>
       </Site>
-      <Channel code="HHZ" locationCode="00">
+      <Channel code="HHZ" startDate="2025-05-10T00:00:00.000000Z" endDate="2026-04-09T00:00:00.000000Z" locationCode="0">
         <Latitude unit="DEGREES">-34.22019508</Latitude>
         <Longitude unit="DEGREES">150.9757506</Longitude>
         <Elevation unit="METERS">262.0</Elevation>
         <Depth unit="METERS">0.0</Depth>
-        <SampleRate>200.0</SampleRate>
+        <SampleRate unit="SAMPLES/S">200.0</SampleRate>
         <Response>
           <InstrumentSensitivity>
             <Value>262374700.0</Value>
-            <Frequency>5</Frequency>
+            <Frequency>5.0</Frequency>
             <InputUnits>
               <Name>M/S</Name>
               <Description>Velocity in meters per second</Description>
@@ -36,6 +36,7 @@
               <Description>Mark Products L-4</Description>
               <InputUnits>
                 <Name>M/S</Name>
+                <Description>Velocity in meters per second</Description>
               </InputUnits>
               <OutputUnits>
                 <Name>V</Name>
@@ -62,7 +63,7 @@
             </PolesZeros>
             <StageGain>
               <Value>165.85</Value>
-              <Frequency>5</Frequency>
+              <Frequency>5.0</Frequency>
             </StageGain>
           </Stage>
           <Stage number="2">
@@ -78,8 +79,81 @@
               <Denominator>1.0</Denominator>
             </Coefficients>
             <StageGain>
-              <Value>1582000</Value>
-              <Frequency>5</Frequency>
+              <Value>1582000.0</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+        </Response>
+      </Channel>
+      <Channel code="HHZ" startDate="2026-04-10T00:00:00.000000Z" locationCode="00">
+        <Latitude unit="DEGREES">-34.22019508</Latitude>
+        <Longitude unit="DEGREES">150.9757506</Longitude>
+        <Elevation unit="METERS">262.0</Elevation>
+        <Depth unit="METERS">0.0</Depth>
+        <SampleRate unit="SAMPLES/S">200.0</SampleRate>
+        <Response>
+          <InstrumentSensitivity>
+            <Value>262374700.0</Value>
+            <Frequency>5.0</Frequency>
+            <InputUnits>
+              <Name>M/S</Name>
+              <Description>Velocity in meters per second</Description>
+            </InputUnits>
+            <OutputUnits>
+              <Name>COUNTS</Name>
+              <Description>None</Description>
+            </OutputUnits>
+          </InstrumentSensitivity>
+          <Stage number="1">
+            <PolesZeros>
+              <Description>Mark Products L-4</Description>
+              <InputUnits>
+                <Name>M/S</Name>
+                <Description>Velocity in meters per second</Description>
+              </InputUnits>
+              <OutputUnits>
+                <Name>V</Name>
+              </OutputUnits>
+              <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
+              <NormalizationFactor>1.9946377032237683</NormalizationFactor>
+              <NormalizationFrequency unit="HERTZ">5.0</NormalizationFrequency>
+              <Zero number="0">
+                <Real>0.0</Real>
+                <Imaginary>0.0</Imaginary>
+              </Zero>
+              <Zero number="1">
+                <Real>0.0</Real>
+                <Imaginary>0.0</Imaginary>
+              </Zero>
+              <Pole number="0">
+                <Real>-4.595521733671149</Real>
+                <Imaginary>4.820698083847621</Imaginary>
+              </Pole>
+              <Pole number="1">
+                <Real>-4.595521733671149</Real>
+                <Imaginary>-4.820698083847621</Imaginary>
+              </Pole>
+            </PolesZeros>
+            <StageGain>
+              <Value>165.85</Value>
+              <Frequency>5.0</Frequency>
+            </StageGain>
+          </Stage>
+          <Stage number="2">
+            <Coefficients>
+              <InputUnits>
+                <Name>V</Name>
+              </InputUnits>
+              <OutputUnits>
+                <Name>COUNTS</Name>
+              </OutputUnits>
+              <CfTransferFunctionType>DIGITAL</CfTransferFunctionType>
+              <Numerator>1.0</Numerator>
+              <Denominator>1.0</Denominator>
+            </Coefficients>
+            <StageGain>
+              <Value>1582000.0</Value>
+              <Frequency>5.0</Frequency>
             </StageGain>
           </Stage>
         </Response>
